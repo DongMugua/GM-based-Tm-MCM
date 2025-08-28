@@ -2,7 +2,8 @@
 
 ## Project Description
 
-TmCM-AM is a project for matrix analysis and optimization. It supports matrix reading, transformation, optimization, and generates corresponding Verilog code.
+This is a project for matrix analysis and optimization. It supports matrix reading, transformation, optimization, and generates corresponding Verilog code.
+
 
 ## Compile and run
 
@@ -64,8 +65,12 @@ The program supports the following command-line options, allowing for customized
 
 An example:
 ```aiignore
-    ../cmake-build-debug/MatrixProject -f "matrix_output.txt" -n 1 -c 1 -p 12
-    ../cmake-build-debug/MatrixProject -f "matrix_output.txt" -n 300 -c 1 -s 100 -p 12
-    ../cmake-build-debug/MatrixProject -f "matrix_output.txt" --restarts 400 --repeat-check 1 --stagnation 100 --thread 12 --result-num 10
-    ../cmake-build-debug/MatrixProject -f "matrix_output.txt" --restarts 20 --repeat-check 1 --stagnation 30 --thread 8 --store-enable 1 --result-num 10 --fraction-enable 0 --transform 1
+    ./MatrixProject -f "matrix_output.txt" -n 1 -c 1 -p 12
+    ./MatrixProject -f "matrix_output.txt" -n 300 -c 1 -s 100 -p 12
+    ./MatrixProject -f "matrix_output.txt" --restarts 400 --repeat-check 1 --stagnation 100 --thread 12 --result-num 10
+    ./MatrixProject -f "matrix_output.txt" --restarts 20 --repeat-check 1 --stagnation 30 --thread 8 --store-enable 1 --result-num 10 --fraction-enable 0 --transform 1
 ```
+## Others
+The sat-mcm is referenced by:
+https://daks.uni-kassel.de/entities/dataset/23c8ed64-09b6-479a-b9b0-50442ee45302 
+
