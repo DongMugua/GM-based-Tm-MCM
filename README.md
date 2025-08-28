@@ -1,4 +1,4 @@
-# TmCM by Adjacent Matrix (TmCM-AM)
+# GM-Based Tm-MCM
 
 ## Project Description
 
