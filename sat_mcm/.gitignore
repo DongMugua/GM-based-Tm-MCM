@@ -1,0 +1,14 @@
+CMakeLists.txt
+CMakeCache.txt
+build/
+CMakeFiles/
+cmake_install.cmake
+libsatmcm.a
+Makefile
+matrix_output.txt
+satmcm
+.venv/
+scripts/__pycache__
+.history
+gen_mg.sh
+matrix_length 2.txt

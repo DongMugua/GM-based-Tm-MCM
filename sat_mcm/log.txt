@@ -1,0 +1,1 @@
+Starting OMCM for constant(s) 139711 and 3600 seconds timeout with solver cadical and 1 allowed threads

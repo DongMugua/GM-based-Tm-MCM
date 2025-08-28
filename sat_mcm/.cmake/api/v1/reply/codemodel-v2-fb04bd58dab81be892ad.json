@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4d88ebff41288ddf57fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "satscm",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "satmcm-bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-satmcm-bin-Debug-4215a9dd5980acb32696.json",
+					"name" : "satmcm-bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "satmcm-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-satmcm-lib-Debug-39c46a0b905494aaa582.json",
+					"name" : "satmcm-lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/sunhao/Library/CloudStorage/OneDrive-stu.hit.edu.cn/10 CodesWork/Constant Multiplier/TmCM-AM/sat_mcm",
+		"source" : "/Users/sunhao/Library/CloudStorage/OneDrive-stu.hit.edu.cn/10 CodesWork/Constant Multiplier/TmCM-AM/sat_mcm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
